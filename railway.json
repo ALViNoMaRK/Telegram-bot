@@ -1,8 +1,8 @@
 {
   "build": {
-    "builder": "python"
+    "builder": "dockerfile"
   },
-  "run": {
-    "command": "python main.py"
+  "deploy": {
+    "restartPolicyType": "always"
   }
 }
