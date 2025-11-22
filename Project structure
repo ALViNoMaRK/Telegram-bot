@@ -1,0 +1,13 @@
+pocket_bot/
+│── main.py
+│── config.py
+│── requirements.txt
+│── railway.json
+│
+├── core/
+│   ├── pocket_api.py
+│   ├── indicators.py
+│   └── strategy.py
+│
+└── telegram/
+    └── notifier.py
